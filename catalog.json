@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "enso-linkedin",
+      "description": "Read authenticated LinkedIn feeds, search posts and inspect profiles, or Like a specifically authorized post using enso-browser.",
+      "files": [
+        "SKILL.md",
+        "references/workflows.md",
+        "scripts/build_url.py"
+      ],
+      "requires": ["enso-browser"]
+    },
+    {
+      "name": "enso-x",
+      "description": "Read authenticated X timelines, search, profiles and threads, or Like a specifically authorized post using enso-browser.",
+      "files": [
+        "SKILL.md",
+        "references/workflows.md",
+        "scripts/build_url.py"
+      ],
+      "requires": ["enso-browser"]
+    }
+  ]
+}
